@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="styles/fonts.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div class="container__outer">
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="title__link" href="#">РекСерв.Мск</a>
+
+                <nav class="nav">
+                    <a class="nav__link" href="#">Главная</a>
+                    <a class="nav__link" href="#">Книги</a>
+                    <a class="nav__link" href="#">События</a>
+                    <a class="nav__link" href="#">Места</a>
+                    <a class="nav__link" href="#">Личный кабинет</a>
+                </nav>
+
+                <a class="login__box" href="#">
+                    Войти
+                </a>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="main_content">
+        <div class="main_image">
+            <div class="main_image__main__text">
+                <div class="main__text__help">Найдём всё, что </div>
+                <div class="main__text__help main__text__help_u">Вам нравится</div>
+            </div>
+
+            <div class="main_image__secondary__text__1">События</div>
+            <div class="main_image__secondary__text__2">Книги</div>
+            <div class="main_image__secondary__text__3">Места</div>
+
+            <div class="bg_div bg_div__main"></div>
+            <img class="line__main" src="images/main_page/welcome/main_image_line.png" alt="">
+            <img class="boy__main" src="images/main_page/welcome/main_image_boy.png" alt="Happy boy">
+            <img class="girl__main" src="images/main_page/welcome/main_image_girl.png" alt="Happy girl">
+
+        </div>
+
+        <div class="recommendations">
+            <div class="bg_div bg_big_div bg_div__recommend">
+                <div class="block_name_div">Рекомендация книг</div>
+                <div class="block_title_name_div">Книги для вас</div>
+
+                <div class="bg_big_div recommendations_items">
+                    <div class="flex_item">
+                        <div class="image_bg"></div>
+                        <img src="images/main_page/book_recommendations/book1.png" alt="">
+                        <div class="book_name">Бойцовский клуб</div>
+                        <div class="book_autor">Чак Паланник</div>
+                        <div class="book_rating">
+                            <div class="book_rating_word">Рейтинг: </div>
+                            <div class="book_rating_value">4.6</div>
+                        </div>
+                        <select class="book_selector">
+                            <option value="" disabled="disabled" selected="selected">Подробнее</option>
+                            <option value="choose_book">Выбрать книгу</option>
+                            <option value="add_to_interesting">Интересно</option>
+                            <option value="not_interested">Не интересно</option>
+                        </select>
+
+                    </div>
+
+                    <div class="flex_item">
+                        <div class="image_bg"></div>
+                        <img src="images/main_page/book_recommendations/book2.png" alt="">
+                        <div class="book_name">Гарри Поттер и Узник Азкабана</div>
+                        <div class="book_autor">Дж. К. Роулинг</div>
+                        <div class="book_rating">
+                            <div class="book_rating_word">Рейтинг: </div>
+                            <div class="book_rating_value">4.8</div>
+                        </div>
+                        <select class="book_selector">
+                            <option value="" disabled="disabled" selected="selected">Подробнее</option>
+                            <option value="choose_book">Выбрать книгу</option>
+                            <option value="add_to_interesting">Интересно</option>
+                            <option value="not_interested">Не интересно</option>
+                        </select>
+                    </div>
+
+                    <div class="flex_item">
+                        <div class="image_bg"></div>
+                        <img src="images/main_page/book_recommendations/book3.png" alt="">
+                        <div class="book_name">Гарри Поттер и тайная комната</div>
+                        <div class="book_autor">Дж. К. Роулинг</div>
+                        <div class="book_rating">
+                            <div class="book_rating_word">Рейтинг: </div>
+                            <div class="book_rating_value">4.7</div>
+                        </div>
+                        <select class="book_selector">
+                            <option value="" disabled="disabled" selected="selected">Подробнее</option>
+                            <option value="choose_book">Выбрать книгу</option>
+                            <option value="add_to_interesting">Интересно</option>
+                            <option value="not_interested">Не интересно</option>
+                        </select>
+                    </div>
+
+                    <div class="wrapper">
+                        <input type="radio" name="point1" id="p11" checked> <label for="p11"></label>
+                        <input type="radio" name="point1" id="p12"> <label for="p12"></label>
+                        <input type="radio" name="point1" id="p13"> <label for="p13"></label>
+                        <input type="radio" name="point1" id="p14"> <label for="p14"></label>
+                        <input type="radio" name="point1" id="p15"> <label for="p15"></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg_div bg_big_div bg_div__events">
+                <div class="block_name_div">Рекомендация событий</div>
+                <div class="block_title_name_div">События для вас</div>
+
+                <div class="bg_big_div recommendations_items">
+                    <div class="flex_item flex_item_event">
+                        <div class="image_bg"></div>
+                        <img class="event_img" src="images/main_page/event_recommendations/event1.png" alt="">
+                        <div class="event_name">Клубняк-тусняк</div>
+                        <div class="event_description">Приходите к нам в сельский клуб! Погрузитесь в мир
+                        незабываемых приключений и детских забав. Детям до 7 лет скидка на алкоголь!</div>
+                        <div class="event_date">Дата: 8 ноября</div>
+                        <div class="event_time">Начало: 17:00</div>
+                        <div class="event_place">Место: Культурный центр ЗИЛ</div>
+
+
+                        <select class="event_selector">
+                            <option value="" disabled="disabled" selected="selected">Подробнее</option>
+                            <option value="choose_book">Посетить</option>
+                            <option value="not_interested">Не интересно</option>
+                        </select>
+                    </div>
+
+                    <div class="flex_item flex_item_event">
+                        <div class="image_bg"></div>
+                        <img class="event_img" src="images/main_page/event_recommendations/event2.png" alt="">
+                        <div class="event_name">Бальный вечер</div>
+                        <div class="event_description">Давно не танцевали со своей второй половинкой? Теперь у вас
+                        есть уникальная возможность вспомнить молодость и тряхнуть стариной!</div>
+                        <div class="event_date">Дата: 8 ноября</div>
+                        <div class="event_time">Начало: 17:00</div>
+                        <div class="event_place">Место: ВДНХ</div>
+
+                        <select class="event_selector">
+                            <option value="" disabled="disabled" selected="selected">Подробнее</option>
+                            <option value="choose_book">Посетить</option>
+                            <option value="not_interested">Не интересно</option>
+                        </select>
+                    </div>
+
+                    <div class="wrapper">
+                        <input type="radio" name="point2" id="p21" checked> <label for="p21"></label>
+                        <input type="radio" name="point2" id="p22"> <label for="p22"></label>
+                        <input type="radio" name="point2" id="p23"> <label for="p23"></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg_div bg_big_div bg_div__places">
+                <div class="block_name_div">Рекомендация мест</div>
+                <div class="block_title_name_div">Места для вас</div>
+
+                <div class="bg_big_div recommendations_items">
+                    <div class="flex_item">
+                        <div class="image_bg"></div>
+                        <img src="images/main_page/places_recommendations/place1.png" alt="">
+                        <div class="book_name">Культурно-досуговый центр</div>
+                        <div class="book_autor">Метро: Войковская</div>
+
+                        <select class="book_selector">
+                            <option value="" disabled="disabled" selected="selected">Подробнее</option>
+                            <option value="choose_book">Посетить</option>
+                            <option value="add_to_interesting">Интересно</option>
+                            <option value="not_interested">Не интересно</option>
+                        </select>
+                    </div>
+
+                    <div class="flex_item">
+                        <div class="image_bg"></div>
+                        <img src="images/main_page/places_recommendations/place2.png" alt="">
+                        <div class="book_name">1-я Тверская ярмарка</div>
+                        <div class="book_autor">Метро: Маяковская</div>
+
+                        <select class="book_selector">
+                            <option value="" disabled="disabled" selected="selected">Подробнее</option>
+                            <option value="choose_book">Посетить</option>
+                            <option value="add_to_interesting">Интересно</option>
+                            <option value="not_interested">Не интересно</option>
+                        </select>
+                    </div>
+
+                    <div class="flex_item">
+                        <div class="image_bg"></div>
+                        <img src="images/main_page/places_recommendations/place3.png" alt="">
+                        <div class="book_name">Антикафе "12 Ярдов"</div>
+                        <div class="book_autor">Метро: Коньково</div>
+
+                        <select class="book_selector">
+                            <option value="" disabled="disabled" selected="selected">Подробнее</option>
+                            <option value="choose_book">Посетить</option>
+                            <option value="add_to_interesting">Интересно</option>
+                            <option value="not_interested">Не интересно</option>
+                        </select>
+                    </div>
+                    <div class="wrapper">
+                        <input type="radio" name="point3" id="p31" checked> <label for="p31"></label>
+                        <input type="radio" name="point3" id="p32"> <label for="p32"></label>
+                        <input type="radio" name="point3" id="p33"> <label for="p33"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
